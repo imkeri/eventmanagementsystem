@@ -6,7 +6,6 @@ import "./login.css"
 import { baseurl } from '../../Baseurl'
 const Login = () => {
 
-
   const [data, setdata] = useState({
     email: "",
     password: ""

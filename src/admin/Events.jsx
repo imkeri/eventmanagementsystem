@@ -28,6 +28,7 @@ const Events = () => {
     const [view,setview] = useState([]);
     const navigate  = useNavigate()
      function logout(e){
+      alert("are you sure?");
        e.preventDefault();
        localStorage.removeItem("token");
        navigate("/"); 

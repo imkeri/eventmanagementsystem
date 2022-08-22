@@ -13,6 +13,7 @@ import { baseurl } from "../Baseurl";
 const Dashborad = () => {
     const navigate  = useNavigate()
      function logout(e){
+      alert("are you sure?");
        e.preventDefault();
        localStorage.removeItem("token");
        navigate("/"); 

@@ -4,7 +4,7 @@ import './css/sidebar.css'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import BookIcon from '@mui/icons-material/Book';
 import TableChartIcon from '@mui/icons-material/TableChart';
-
+import ListAltIcon from '@mui/icons-material/ListAlt';
 
 const Sidebar = () => {
   const [responsive,setresponsive] = useState(false)
@@ -21,11 +21,9 @@ const Sidebar = () => {
           onClick={() => setresponsive(false)}>
          
             <li><NavLink to="/dashborad"><DashboardIcon/> Dashboard</NavLink></li><br></br>
-            <li><NavLink to="/events"><TableChartIcon /> Events</NavLink></li><br></br>
+            <li><NavLink to="/events"><ListAltIcon /> Events</NavLink></li><br></br>
             <li><NavLink to="/contact"><TableChartIcon /> Contact</NavLink></li><br></br>
             <li><NavLink to="/ticketdata"><BookIcon /> TicketData</NavLink></li>
-              
-          
           </ul>
           <button className='mobile_menu_icon'
           onClick={()=> setresponsive(!responsive)}>
