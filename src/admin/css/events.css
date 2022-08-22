@@ -1,0 +1,63 @@
+.events{
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+    width:17%;
+}
+.events_main{
+    width: 83%;
+}
+.Log_Out{
+    width:100%;
+    height: 70px;
+    text-align: right;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 14%)!important;
+}
+.Log_Out button{
+    color:#f82249;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    
+}
+.view h6{
+    font-size: 20px;
+}
+.view{
+    margin: 0;
+    font-size: 18px;
+}
+
+.link{
+    text-decoration: none;
+    color: #112363;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #112363;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 10%;
+    left: 90%;
+    z-index: 2;
+  }
+  .view-btn{
+    background-color: transparent;
+    border: 2px dotted #be3750;
+    border-radius: 5px;
+    padding: 3px 13px;
+    font-size: 15px;
+    margin: auto 5px;
+  }
+  .delete{
+    background-color: transparent;
+    border: 2px dotted #112363;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 15px;
+    margin: auto 5px;
+  }

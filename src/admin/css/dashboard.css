@@ -1,0 +1,27 @@
+.dashboard{
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+    width:17%;
+}
+.dashboard_main{
+    width: 83%;
+}
+.Log_Out{
+    width:100%;
+    height: 70px;
+    text-align: right;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 14%);
+}
+.Log_Out button{
+    color:#f82249;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px;
+    
+}
+
+

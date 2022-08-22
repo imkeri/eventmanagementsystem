@@ -1,0 +1,51 @@
+.widget1{
+  display: flex;
+}
+.widget {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(219, 200, 200, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height: 110px;
+    width: 25%;
+    margin: 3%;
+}
+.left,
+.right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 50%;
+}
+
+.title1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #112363;
+}
+.counter {
+ font-size: 25px;
+ font-weight: 300;
+}
+.link1 {
+  width: max-content;
+  font-size: 12px;
+  border-bottom: 1px solid gray;
+  margin-left: 75%;
+  text-decoration: none;
+  color: gray;
+}
+
+.icon {
+  font-size: 18px;
+  padding-left: 38%;
+  border-radius: 5px;
+  align-self: flex-end;
+  color: #be3750;
+}
+
+ 
+  

@@ -1,0 +1,69 @@
+.testimonial .testimonial-item {
+    margin-bottom: 30px;
+  }
+  .testimonial .testimonial-item .comment {
+    padding: 40px 30px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    position: relative;
+    transition: 0.3s ease;
+  }
+  .testimonial .testimonial-item .comment:before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    bottom: -27px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 27px 0;
+    border-color: transparent #e5e5e5 transparent transparent;
+    transition: 0.3s ease;
+  }
+  .testimonial .testimonial-item .comment:after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    bottom: -26px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 28px 27px 0;
+    border-color: transparent #fff transparent transparent;
+    transition: 0.3s ease;
+  }
+  .testimonial .testimonial-item .comment:hover {
+    background: rgba(6, 12, 34, 0.98);
+    border: 1px solid #112363;
+  }
+  .testimonial .testimonial-item .comment:hover p {
+    color: #fff;
+  }
+  .testimonial .testimonial-item .comment:hover:before {
+    border-color: transparent #112363 transparent transparent;
+  }
+  .testimonial .testimonial-item .comment:hover:after {
+    border-color: transparent  #112363 ransparent transparent;
+  }
+  .testimonial .testimonial-item .media {
+    margin-left: 50px;
+    display: flex;
+  }
+  .testimonial .testimonial-item .media img {
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+  }
+  .testimonial .testimonial-item .media .media-body {
+    margin-left: 15px;
+    align-self: center;
+  }
+  .testimonial .testimonial-item .media .media-body .name p {
+    font-family: "Montserrat", sans-serif;
+    color: #112363;
+  }
+  .testimonial .testimonial-item .media .media-body .profession p {
+    font-size: 0.8126rem;
+    color: #f82249;
+  }
+  
