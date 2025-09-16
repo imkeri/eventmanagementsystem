@@ -23,7 +23,6 @@ const Dashborad = () => {
      const [userdata,setUserdata] = useState([]);
      const getData = async() => {
       axios.get(`${baseurl}/event/count`).then((res) => {
-          console.log(".....",res.data.data)
           setData(res.data.data)
           
         }).catch((err) => {
@@ -32,7 +31,6 @@ const Dashborad = () => {
     }  
     const getticketData = async() => {
       axios.get(`${baseurl}/ticket/count`).then((res) => {
-          console.log(".....",res.data.data)
           setticketdata(res.data.data)
           
         }).catch((err) => {
@@ -41,7 +39,6 @@ const Dashborad = () => {
     } 
     const getUserData = async() => {
       axios.get(`${baseurl}/contact/count`).then((res) => {
-          console.log(".....",res.data.data)
           setUserdata(res.data.data)
           
         }).catch((err) => {

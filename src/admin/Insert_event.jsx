@@ -57,30 +57,32 @@ const navigate  = useNavigate()
             <div className='right'>
               <form className='new_event_form' onSubmit={(e)=>insert(e)}>
                 <div className='formInput'>
-                  <label>e_name</label>
+                  <label>Name</label>
                   <input type="text" placeholder="Enter event name" name="e_name" value={data.e_name} onChange={(e) => handle(e)} required></input>
                 </div>
                 <div className='formInput'>
-                  <label>e_venue</label>
+                  <label>Venue</label>
                   <input type="text" placeholder="Enter event venue" name="e_venue" value={data.e_venue} onChange={(e) => handle(e)} required></input>
                 </div>
                 <div className='formInput'>
-                  <label>e_organizer</label>
+                  <label>Organizer</label>
                   <input type="text" placeholder="Enter  event organizer " name="e_organizer" value={data.e_organizer} onChange={(e) => handle(e)} required></input>
                 </div>
                 <div className='formInput'>
-                  <label>price</label>
+                  <label>Price</label>
                   <input type="text" placeholder="Enter price" name="price" value={data.price} onChange={(e) => handle(e)} required></input>
                 </div>
                 <div className='formInput'>
-                  <label>date</label>
-                  <input type="text" placeholder="Enter date" name="date" value={data.date} onChange={(e) => handle(e)} required></input>
+                  <label>Date</label>
+                  <input type="date" placeholder="Enter date" name="date" value={data.date} onChange={(e) => handle(e)} required></input>
                 </div>
                 <div className='formInput'>
-                  <label>time</label>
+                  <label>Time</label>
                   <input type="text" placeholder="Enter time" name="time" value={data.time} onChange={(e) => handle(e)} required></input>
                 </div>               
-                <button>Add</button>
+                <div className='d-flex justify-content-end'>
+                  <button >Add</button>
+                </div>
               </form>
             </div>
           </div>
